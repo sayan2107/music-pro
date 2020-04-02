@@ -1,0 +1,87 @@
+name: pro_music
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Reactive Programming
+  rxdart: ^0.22.1+1
+  # Internationalizing
+  flutter_localizations:
+    sdk: flutter
+  flutter_cupertino_localizations: ^1.0.1
+  # Shared Preferences
+  shared_preferences: ^0.5.3+4
+  # Permissions handler
+  permission_handler: ^3.2.2
+  # Networking
+  dio: ^3.0.3
+  get_it: ^3.0.3
+  intl: 0.16.0
+  firebase_core: ^0.4.4+3
+  firebase_analytics: ^5.0.11
+  google_sign_in: ^4.3.0
+  url_launcher: ^5.4.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background/
+    - assets/icons/
+
+  fonts:
+    - family: Swiss
+      fonts:
+        - asset: fonts/Swiss-Medium.otf
+          style: normal
+        - asset: fonts/Swiss-Italic.ttf
+          style: italic
+        - asset: fonts/Swiss-Roman.ttf
+          weight: 500
+        - asset: fonts/Swiss-Bold.ttf
+          weight: 700
+        - asset: fonts/Swiss-Heavy.ttf
+          weight: 900
+
+    - family: Swiss-Light
+      fonts:
+        - asset: fonts/Swiss-Light.ttf
+          style: normal
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+          style: normal
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Medium.ttf
+
