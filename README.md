@@ -1,6 +1,6 @@
-# pro_music
+# Pro Music
 
-A new Flutter project.
+A Flutter Application To show list of musics by fetching from api along with a details page where user can see more details about any particular music
 
 ## Getting Started
 
